@@ -31,7 +31,7 @@ public class PagosController {
         responseMap.put("id creado",pago.getId());
         return ResponseEntity.status(HttpStatus.CREATED).body(responseMap);
     }
-    
+
 
 
 }
